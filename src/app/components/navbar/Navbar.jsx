@@ -1,9 +1,9 @@
-import React from 'react'
-import styles from './navbar.module.scss'
-import Image from 'next/image'
-import Link from 'next/link'
-import ThemeToggle from '../themeToggle/ThemeToggle'
-import AuthLinks from '../AuthLinks/AuthLinks'
+import React from "react";
+import styles from "./navbar.module.scss";
+import Image from "next/image";
+import Link from "next/link";
+import ThemeToggle from "../themeToggle/ThemeToggle";
+import AuthLinks from "../AuthLinks/AuthLinks";
 
 export default function Navbar() {
   return (
@@ -17,11 +17,17 @@ export default function Navbar() {
       <div className={styles.logo}>lamablog</div>
       <div className={styles.links}>
         <ThemeToggle />
-        <Link href="/" className={styles.link}>Homepage</Link>
-        <Link href="/" className={styles.link}>Contact</Link>
-        <Link href="/" className={styles.link}>About</Link>
+        <Link href="/" className={styles.link}>
+          Homepage
+        </Link>
+        <Link href="/" className={styles.link}>
+          Contact
+        </Link>
+        <Link href="/" className={styles.link}>
+          About
+        </Link>
         <AuthLinks />
       </div>
     </div>
-  )
+  );
 }
