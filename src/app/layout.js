@@ -8,13 +8,17 @@ import ThemeProvider from "@/provider/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Blog App",
-  description: "The best blog app!",
+  title: "Blog",
+  description: "You will find a good news on this blog ",
+  authors: [
+    { name: "Mostafa El Hawary", url: "https://github.com/Mostafa-ElHawary" },
+  ],
+  keywords: "Blog, Write artical , read news",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="!scroll-smooth relative ">
       <body className={inter.className}>
         <ThemeContextProvider>
           <ThemeProvider>
