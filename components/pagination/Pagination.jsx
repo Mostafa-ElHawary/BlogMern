@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './pagination.module.scss'
+import style from './pagination.module.css'
 
 export default function Pagination() {
   return (

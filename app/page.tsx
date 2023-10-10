@@ -10,7 +10,7 @@ import Menu from "@/components/menu/Menu";
 
 export default function Home() {
   return (
-    <div className='h-screen bg-white text-gray-700 dark:text-[#ddd] dark:bg-[#0a192f]'>
+    <div className='px-4'>
       <Features />
       <CategoryList />
       <div className='flex gap-10'>

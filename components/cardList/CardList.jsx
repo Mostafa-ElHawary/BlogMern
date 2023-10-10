@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './cardList.module.scss'
+import style from './cardList.module.css'
 import Pagination from '../pagination/Pagination'
 export default function CardList() {
   return (

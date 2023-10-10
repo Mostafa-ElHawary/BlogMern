@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './menu.module.scss'
+import style from './menu.module.css'
 
 export default function Menu() {
   return (
