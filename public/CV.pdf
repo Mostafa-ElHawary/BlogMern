@@ -1,0 +1,250 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Mostafa} % Your first name
+\familyname{El-Hawary} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Full Stack Developer}
+\address{Egypt}{}
+\mobile{(+20) 1023314361}
+\email{alhwarymostafa@gmail.com}
+
+%\homepage{https://www.linkedin.com/pub/daniele-perrotta/64/5b9/794} {staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+% the photo is here 
+% \photo[90pt][0.9pt]{pictures/photo1.png} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+\newcommand{\Csharp}{%
+  {\settoheight{\dimen0}{C}C\kern-.05em \resizebox{!}{\dimen0}{\raisebox{\depth}{\textbf{\#}}}}}
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+
+
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\cventry{}{}{}{}{}{\textbf{As Projects}} 
+\cventry{Start--end}{xx}{xx}{}{}{\textbf{Task:} x} 
+
+
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+\section{Skills }
+\cvitem{Language }{{C++ , JavaScript , TypeScript , Python}}
+\cvitem{Others}{{React, NextJS , Node.js , Express.js , MongoDB , Git , Gulp , Jest (Testing)}}
+\cvitem{Operating System }{Windows, Linux}
+
+
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\cventry{2016--2020}{Bachelor of in law}{}{}{}{ }  % Arguments not required can be left empty
+
+
+%\section{Masters Thesis}
+
+%\cvitem{Title}{\emph{Technologies and characterization of ferroelectric polymers for biomedical sensors}}
+%\cvitem{Supervisors}{Professor Antonino Fiorillo}
+%\cvitem{Description}{This thesis is based on the implementation of a temperature sensor.}
+
+
+%------------------------------------------------
+\section{Courses}
+
+\cventry{Master}{Dr.Mostafa Saad Ibrahim}{Data Structures , Algorithms}{}{}{}
+
+\cventry{cloud native base camp}{Data Structures}{Algorithms Analysis and Design from scratch}{}{}{}
+%-----------------
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\section{Languages}
+\cvitem{Arabic}{{Native }}
+\cvitem{English}{B2.2 }
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----
+\section{Soft skills }
+\cvitem{Designing}{{UI/UX} , {Figma design}}
+
+
+% \section{Scholarships}
+
+% \cvitem{PhD Degree}{Financed  by DAAD}
+% \cvitem{German Course}{Financed  by DAAD}
+% \cvitem{M.Sc. Degree}{Financed  by Yemen ministry
+% of higher education}
+% \cvitem{Master Thesis}{Financed  by National Scholarship
+% Programme-World
+% Federation of Scientists}
+% \cvitem{Bsc. Degree}{Financed  by Yemen ministry
+% of higher education}
+\vspace{-.5 cm}
+
+% \section{Publications}
+% \cvitem{Journals}{\begin{itemize}
+% \item Ali Al-Raziqi and Mahesh Venkata Krishna and Joachim Denzler. Detection of Dog-Robot Interactions in
+% Video Sequences. Pattern Recognition and Image Analysis. Advances in Mathematical Theory and
+% Applications (PRIA). 26(1):46-54 2016.
+% \item Al-Badarneh, A., Najadat, H., Alraziqi . Brain Images Classifier: A Hybrid Approach Using Decision Trees
+% and Genetic Algorithms. Journal of Next Generation Information Technology(JNIT) 2016.
+% \end{itemize} }
+
+% \cvitem{Conferences }{\begin{itemize}
+% \item  Ali Al-Raziqi and Joachim Denzler. Unsupervised Framework for Interactions Modeling between Multiple
+% Objects. International Conference on Computer Vision Theory and Applications (VISAPP). 509-516. 2016.
+% \item Al-Badarneh, Amer, Ali Alrazqi, and Hassan Najadat. "Performance Impact of Texture Features on MRI Image Classification." Proceedings of the The International Conference on Engineering and MIS 2015. ACM, 2015.
+% \item Ali Al-Raziqi and Mahesh Venkata Krishna and Joachim Denzler. Detection of Object Interactions in Video
+% Sequences. Open German-Russian Workshop on Pattern Recognition and Image Understanding
+% (OGRW). 156-161. 2014.
+% \item Al-Badarneh, Amer, Hassan Najadat, and Ali M. Alraziqi. "A classifier to detect tumor disease in MRI brain images." Advances in Social Networks Analysis and Mining (ASONAM), 2012 IEEE/ACM International Conference on. IEEE, 2012.
+% \end{itemize}}
+
+% \cvitem{Book}{\begin{itemize}
+% \item Ali Mohammed Al-Raziqi, Amer Al-Badarneh, Hassen Najadat. Classification of brain diseases using MRI texture: Decision Tree and Genetic Algorithm . Publisher:  LAP  LAMBERT  Academic Publishing, ISBN: 978-3659668456, 2015. 
+% \end{itemize}   
+% }
+
+%\cvitemwithcomment{Arabic}{Native Speaker}{}
+%\cvitemwithcomment{English}{\textsc{English (TOEFL)(Bachelor, Master, and PhD in English, Master and PhD dissertations
+%written in English, numerous publications and presentations in English, teaching in the
+%international Master Program and Bachelor Program in English)}
+%}{}
+%\cvitemwithcomment{German}{Professional working proficiency}{}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+% \iffalse
+% \section{Competenze Informatiche}
+
+% \cvitem{Linguaggi program}{\textsc{Java, Android, MySQL, MATLAB}}
+% \cvitem{Web }{\textsc{CMS, HTML, XML, XSL, XSLT, XPATH, JAVASCRIPT}, Subversion, Apache, Tomcat, WebServices (SOAP)}
+% \cvitem{IDE }{\textsc{Eclipse, NetBeans, Android Studio, VisualStudio}}
+
+
+% \cvitem{Tecnologie }{\textsc{MVC}, \textsc{J2EE}, \textsc{Hibernate}, Spring Framework, JSF, Primefaces, Liferay}
+% \cvitem{Database }{PostgreSQL, Oracle, DB2}
+% \cvitem{Sistemi Operativi }{Windows, Unix, Macintosh}
+
+% \section{Competenze Tecniche}
+
+% \cvitem{Software }{\textsc{MATLAB, SPM, Cadence PSPICE, LabView}}
+
+% \section{Progetti IT}
+
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+% \cvlistitem{Sviluppo di un Sistema per la gestione di Ticketing}
+% \cvlistitem{Manutenzione  Evolutiva del Portale  ARPACAL (Agenzia  Regionale per  la Protezione dell'Ambiente della Calabria)}
+% \cvlistitem{Sviluppo di un sistema per la gestione delle Tasse di Concessione Regionale (TCR)}
+% \cvlistitem{Sviluppo di un Sistema per la gestione dei Verbali}
+% \cvlistitem{Manutenzione Evolutiva del Portale dei Tributi della Regione Calabria}
+% \cvlistitem{Sviluppo di un Sistema per la gestione delle Minute e delle Pratiche di Equitalia    attraverso l'interazione tramite Web Service}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Lingue}
+
+% \cvitemwithcomment{Italiano}{Madrelingua}{}
+% \cvitemwithcomment{Inglese}{Livello Intermedio}{}
+% %\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Interessi}
+
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+% \cvlistdoubleitem{Piano}{}
+% \cvlistitem{Atletica}
+% \fi
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+
+
