@@ -1,7 +1,17 @@
 "use client";
 import { createContext, useEffect, useState } from "react";
 
-export const ThemeContext = createContext();
+type Theme = "light" | "dark";
+
+type ThemeContextType = {
+  theme: Theme;
+  toggleTheme: () => void;
+};
+
+type ThemeContextProviderProps = {
+  children: React.ReactNode;
+};
+export const ThemeContext = createContext<ThemeContextType | null >(null);
 
 const getThemFromStorage = () => {
   if (typeof window !== "undefined") {
@@ -10,7 +20,7 @@ const getThemFromStorage = () => {
   }
 };
 
-export const ThemeContextProvider = ({ children }) => {
+export const ThemeContextProvider = ({ children }:ThemeContextProviderProps) => {
   const [theme, setTheme] = useState(() => {
     return getThemFromStorage();
   });

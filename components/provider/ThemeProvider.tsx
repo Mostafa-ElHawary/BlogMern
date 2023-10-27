@@ -11,6 +11,6 @@ export default function ThemeProvider({ children }) {
   }, []);
 
   if (mounted) {
-    return <div className={theme}>{children}</div>;
+    return <div className={`${theme} this is dark`}>{children}</div>;
   }
 }
